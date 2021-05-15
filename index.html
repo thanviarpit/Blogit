@@ -1,0 +1,552 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+ 
+    <script defer src="Jquery\jquery-3.6.0.min.js"></script>
+    <script defer src="Jquery/cybage.js"></script>
+    <title>Assassins</title>
+</head>
+
+<body>
+    <header class="main-header">
+
+        <!--NAV BAAR CONTENTS-->
+        <div>
+            <!-- <nav class="navbar navbar-expand-md  bg-primary navbar-dark fixed-top"></nav> -->
+            <nav class="navbar navbar-expand-xl navbar-light bg-light ">
+                <a href="#" class="navbar-brand">
+                    <!-- <img src="../assets/logo.jpeg" height="28" alt="CoolBrand"> -->
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                    <img style="width:35px; padding-top:15px;" src="images/logo.png">
+                    <h1 style="color:aliceblue; padding-top:18px; margin:5px">BLOG IT</h1>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown" data-bs-toggle="dropdown"
+                        aria-expanded="false" style="color:aliceblue">Features</a>
+                    <ul class="dropdown-menu bg-dark" aria-labelledby="dropdown03">
+                        <li><a class="dropdown-item text-white" href="#">World</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Technology</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Design</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Business</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Politics</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Science</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Health</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Style</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Travel</a></li>
+                    </ul>
+                </li>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav  ml-auto">
+                        <a href="#" class="nav-item nav-link"  data-toggle="modal" data-target="#RegisterModal" style="color:aliceblue">Home </a>
+                        <a href="#" class="nav-item nav-link" data-toggle="modal" data-target="#LoginModal" style="color:aliceblue">About</a>
+                        <a href="#" class="nav-item nav-link" style="color:aliceblue">Create Blog</a>
+                    </div>
+                    <form class="form-inline my-2 my-md-0">
+                        <input class="form-control" type="text" placeholder="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+
+        <div class="d-flex justify-content-center align-items-center flex-column py-5">
+            <h1 class="main-heading">BLOG IT</h1>
+            <p class="main--heading--para">Welcome to our <span
+                    class="text-capitalize bg-dark text-white py-2 px-3">Blog page</span></p>
+        </div>
+
+
+
+        <!--image section-->
+        <div class="main-header-div d-flex align-items-start justify-content-center pl-5
+     flex-column shadow">
+            <p>BLOG IT</p>
+            <h2 class="animateword">
+                <span></span>
+                <div>
+                    <ul class="flip">
+                        <li>Create ur page</li>
+                        <li>Build your thinking</li>
+                        <li>Upgrade your ideas</li>
+                        <li>Adapt to change</li>
+                    </ul>
+
+                </div>
+            </h2>
+            <button class="text-uppercase">Blogit</button>
+
+        </div>
+
+    </header>
+
+    <!--TWO SIDES DIV-->
+     <!--first blog-->
+    <div class="container-fluid">
+        <div class="row">
+            <!--to get the left and right side div space-->
+            <div class="col-xl-10 col-lg-10  col-md-11 col-11 mx-auto my-5">
+                <div class="row gx-5 mx-sm-auto">
+                    <!--to get the left side of the div space-->
+                    <div class="col-lg-8 col-md-11 col-11 mx-auto">
+                        <div class="row gy-5">
+                            <!--our first post-->
+                            <div class="col-12 card p-4 shadow blog_left__div">
+                                <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5">
+                                    <h1 style="color: orangered">Blogs</h1>
+                                    <!-- <p class="First-blog"><span class="font-weight-bold">Welcome to our Home
+                                            page,</span>,may 20 2021</p> -->
+                                </div>
+                                <!-- <figure class="right-side-img mb-3">
+                                    <img src="../images/Blogging.jpg" class="img-fluid shadow">
+                                </figure>
+                                <p><span class="font-weight-bold">First-blog---</span>Do you have a 'Welcome Readers'
+                                    article on your blog? It's ideally the first article or post you write on your
+                                    business blog.
+
+                                    I consider the Welcome blog article a must-have for a blog. Not only does it welcome
+                                    readers to your blog, but it also sets expectations for you and for them as you go
+                                    forth publishing articles on a regular and ongoing basis.
+                                      
+                                    A blog, after all, is the beginning of a beautiful journey about meaningful content,
+                                    your customer personas, and your passion for your business. Meaning comes from
+                                    thoughtfulness and focus, and a deep understanding of and interest in your
+                                    customers.</p>
+                                <p>
+                                    I consider the Welcome blog article a must-have for a blog. Not only does it welcome
+                                    readers to your blog, but it also sets expectations for you and for them as you go
+                                    forth publishing articles on a regular and ongoing basis.
+                                </p>
+                                <div class="d-flex justify-content-between left-div-btns">
+                                    <div>
+                                        <button class="left-div-like" id="like-btn">
+                                            <i class="far fa-thumbs-up"></i>Like
+                                        </button>
+                                    </div>
+                                    <div class="d-flex justify-content-between left-div-btns">
+                                        <div>
+                                            <button class="left-div-reply" onclick="reply('reply1')">
+                                                Reply<badge class="bg-white text-dark p-2">1</badge>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div> -->
+                                <div class="app">
+                                    
+                                    <hr>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--to get the right side of the div space-->
+
+                    <div class="col-lg-3 col-md-7 col-11 justify-content-end m-lg-0 m-auto">
+                        <div class="row gy-5 left-div-blog">
+                            <!--about me part-->
+                            <div class="col-12 about-me-div shadow">
+                                <p>Abdul Kalam</p>
+                                <p>A.P.J. Abdul Kalam 
+                                      Indian scientist and
+                                       politician
+                                        who played a leading role in the development of India’s missile and nuclear
+                                     weapons programs. He was president of India from 2002 to 2007.</p>
+                            </div>
+                            <!--popular posts-->
+                            <div class="popular-post">
+                                <div class="right-div-title py-2 pl-2">
+                                    <h2>Popular posts</h2>
+                                </div>
+                                <div class="right-subdiv  shadow">
+                                    <div class="row">
+                                        <div class="col-3 popular-post-img1 py-2 pl-2">
+
+                                        </div>
+                                        <div class="col-9">
+                                            <h3>Bill gates</h3>
+                                            <p>Ceo Microsoft</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-3 popular-post-img2 py-2 pl-2">
+
+                                        </div>
+                                        <div class="col-9">
+                                            <h3>Mark</h3>
+                                            <p>Ceo Facebook</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-3 popular-post-img3 py-2 pl-2">
+
+                                        </div>
+                                        <div class="col-9">
+                                            <h3>Melenda</h3>
+                                            <p>Ceo Apple</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-3 popular-post-img4 py-2 pl-2">
+
+                                        </div>
+                                        <div class="col-9">
+                                            <h3>jeff</h3>
+                                            <p>Ceo Amazon</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" right-div-post">
+                                <div class="right-div-title py-4 pl-2">
+                                    <h2>Follow Us</h2>
+                                </div>
+                                <div class="right-subdiv d-flex justify-content-around ">
+                                    <a href="#"><i class="fab fa-facebook-square fa-2x"></i> </a>
+                                    <a href="#"><i class="fab fa-instagram fa-2x"></i> </a>
+                                    <a href="#"><i class="fab fa-github-alt fa-2x"></i></a>
+                                    <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+                                    <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in fa-2x"></i></a>
+                                </div>
+                            </div>
+                            <!--tags-->
+                            <div class="right-div-post">
+                                <div class="right-div-title py-4 pl-2">
+                                    <h2>Tags</h2>
+                                </div>
+                                <div class="tags-main right-subdiv">
+                                    <a href="#" class="badge shadow text-capitalize">Html</a>
+                                    <a href="#" class="badge shadow text-capitalize">css</a>
+                                    <a href="#" class="badge shadow text-capitalize">java</a>
+                                    <a href="#" class="badge shadow text-capitalize">javascript</a>
+                                    <a href="#" class="badge shadow text-capitalize">oops</a>
+
+                                </div>
+                            </div>
+                            <!--follow us-->
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- <div class="container-fluid">
+        <div class="row">
+            <!--to get the left and right side div space
+            <div class="col-xl-10 col-lg-10  col-md-11 col-11 mx-auto my-5">
+                <div class="row gx-5 mx-sm-auto">
+                    <!--to get the left side of the div space
+                    <div class="col-lg-8 col-md-11 col-11 mx-auto">
+                        <div class="row gy-5">
+                            <!--our first post
+                            <div class="col-12 card p-4 shadow blog_left__div">
+                                <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5">
+                                    <h1> My First blog</h1>
+                                    <p class="First-blog"><span class="font-weight-bold">Welcome to our Home
+                                            page,</span>,may 20 2021</p>
+                                </div>
+                                <figure class="right-side-img mb-3">
+                                    <img src="../images/blogit7.jpeg" class="img-fluid shadow">
+                                </figure>
+                                <p><span class="font-weight-bold">First-blog---</span>Do you have a 'Welcome
+                                    Readers' article on your blog? It's ideally the first article or post you write
+                                    on your business blog.
+
+                                    I consider the Welcome blog article a must-have for a blog. Not only does it
+                                    welcome readers to your blog, but it also sets expectations for you and for them
+                                    as you go forth publishing articles on a regular and ongoing basis.
+
+                                    A blog, after all, is the beginning of a beautiful journey about meaningful
+                                    content, your customer personas, and your passion for your business. Meaning
+                                    comes from thoughtfulness and focus, and a deep understanding of and interest in
+                                    your customers.</p>
+                                <p>
+                                    I consider the Welcome blog article a must-have for a blog. Not only does it
+                                    welcome readers to your blog, but it also sets expectations for you and for them
+                                    as you go forth publishing articles on a regular and ongoing basis.
+                                </p>
+                                <div class="d-flex justify-content-between left-div-btns">
+                                    <div>
+                                        <button class="left-div-like" id="like-btn">
+                                            <i class="far fa-thumbs-up"></i>Like
+                                        </button>
+                                    </div>
+                                    <div class="d-flex justify-content-between left-div-btns">
+                                        <div>
+                                            <button class="left-div-reply" onclick="reply('reply1')">
+                                                Reply<badge class="bg-white text-dark p-2">1</badge>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <!--to get the right side of the div space
+                    <div class="col-lg-3 col-md-8 col-11 justify-content-end m-lg-0 m-auto">
+                        <div class="row gy-5 left-div-blog">
+                            <!--about me part
+                            <div class="col-12 about-me-div shadow">
+                                <p>Mark Zuckerberg</p>
+                                <p> BASIC Programming in the 1990s,
+                                    and later hired software developer
+                                    David Newman to tutor him privately.
+                                    Zuckerberg took a graduate course in the subject
+                                    at Mercy College near his home </p>
+                            </div>
+                            <!--popular posts
+                            <div class="popular-post">
+                                <div class="right-div-title py-2 pl-2">
+                                    <h2>Popular posts</h2>
+                                </div>
+                                <div class="right-subdiv  shadow">
+                                    <div class="row">
+                                        <div class="col-3 popular-post-img1 py-2 pl-2">
+
+                                        </div>
+                                        <div class="col-9">
+                                            <h3>Bill gates</h3>
+                                            <p>Ceo Microsoft</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-3 popular-post-img2 py-2 pl-2">
+
+                                        </div>
+                                        <div class="col-9">
+                                            <h3>Mark</h3>
+                                            <p>Ceo Facebook</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-3 popular-post-img3 py-2 pl-2">
+
+                                        </div>
+                                        <div class="col-9">
+                                            <h3>Melenda</h3>
+                                            <p>Ceo Facebook</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-3 popular-post-img4 py-2 pl-2">
+
+                                        </div>
+                                        <div class="col-9">
+                                            <h3>jeff</h3>
+                                            <p>Ceo Amazon</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Advertisements part
+                            <div class="right-div-post">
+                                <div class="right-div-title py-4 pl-2">
+                                    <h2>Advertisement</h2>
+                                </div>
+                                <div class="right-subdiv">
+                                    <div class="advertise-img bg-light shadow">
+                                        <p>Ads goes here </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--tags
+                            <div class="right-div-post">
+                                <div class="right-div-title py-4 pl-2">
+                                    <h2>Tags</h2>
+                                </div>
+                                <div class="tags-main right-subdiv">
+                                    <a href="#" class="badge shadow text-capitalize">Html</a>
+                                    <a href="#" class="badge shadow text-capitalize">css</a>
+                                    <a href="#" class="badge shadow text-capitalize">java</a>
+                                    <a href="#" class="badge shadow text-capitalize">javascript</a>
+                                    <a href="#" class="badge shadow text-capitalize">oops</a>
+
+
+                                </div>
+                            </div>
+                            <div class=" right-div-post">
+                                <div class="right-div-title py-4 pl-2">
+                                    <h2>Follow Us</h2>
+                                </div>
+                                <div class="right-subdiv d-flex justify-content-around ">
+                                    <a href="#"><i class="fab fa-facebook-square fa-3x"></i> </a>
+                                    <a href="#"><i class="fab fa-instagram fa-3x"></i> </a>
+                                    <a href="#"><i class="fab fa-github-alt fa-3x"></i></a>
+                                    <a href="#"><i class="fab fa-twitter fa-3x"></i></a>
+                                    <a href="#"><i class="fab fa-youtube fa-3x"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in fa-3x"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+         </div>
+        </div> 
+    </div>-->
+<footer class="bg-dark text-white pt-5 pt-4">
+    
+    <div class="container text-center text-md-left">
+        <div class="row text-center text-md-left">
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold text-warning">CYBAGE</h5>
+                <p>Here is the information regaring cybage as it privdes employemnt in different fields</p>
+
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Products</h5>
+            <p>
+                <a href="#" class="text-white" style="text-decoration:none;">Theproviders</a>
+            </p>
+            <p>
+                <a href="#" class="text-white" style="text-decoration:none;">Creativity</a>
+            </p>
+            <p>
+                <a href="#" class="text-white" style="text-decoration:none;">SourceFiles</a>
+            </p>
+            <p>
+                <a href="#" class="text-white" style="text-decoration:none;">Bootstrap5</a>
+            </p>
+            </div>
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3 ">
+             <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Useful Links</h5>
+             <p>
+                <a href="#" class="text-white" style="text-decoration:none;">your account</a>
+            </p>
+            <p>
+                <a href="#" class="text-white" style="text-decoration:none;">Becomes an affiliate</a>
+            </p>
+            <p>
+                <a href="#" class="text-white" style="text-decoration:none;">Shipping Rates</a>
+            </p>
+            <p>
+                <a href="#" class="text-white" style="text-decoration:none;">Help</a>
+            </p>
+            </div>
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+               <h5 class="text-uppercase mb-4 text-warning">Contacts</h5>
+               <p>
+                   <i class="fas fa-home mr-3">India,in333,Ind</i>
+               </p>
+               <p>
+                <i class="fas fa-envelope mr-3">cybage@gmail.com</i>
+            </p>
+            <p>
+                <i class="fas fa-phone mr-3">02912649957</i>
+            </p>
+            <p>
+                <i class="fas fa-print mr-3">0342001</i>
+            </p>
+            </div>
+            <hr class="mb-4">
+            <div class="row-align-items-center">
+              <div class="col-md-7 col-lg-8">
+              <p>Copyrights to be preserved by CYBAGE
+                  <a href="cybage.com" style="text-decoration: none;">
+                      <strong class="text-warning">Cybage software</strong>
+                  </a>
+              </p>
+              </div>
+              <div class="col-md-5 col-lg-4">
+               <div class="text-center text-md-right">
+                <ul class="list-unstyled list-inline"></ul>
+                <li class="list-inline-item">
+                    <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-google-plus"></i></a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-youtube"></i></a>
+                </li>
+               </div>
+              </div>
+            </div>
+        </div>
+
+    </div>
+    <hr>
+    <p class="footer">&copy Cybage software private Limited</p>
+</footer>
+</body>
+<!-- Optional JavaScript; choose one of the two! -->
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+    crossorigin="anonymous"></script>
+
+
+</script>
+
+<!-- Option 2: Separate Popper and Bootstrap JS -->
+<!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ" crossorigin="anonymous"></script>
+    -->
+<!--to get the id-->
+<!--<script>
+    // const like = document.getElementById('like-btn');
+    // const singleClick = () => {
+    //     like.style.fontweight = 'bold';
+    //     like.style.background = '#3282b8';
+    //     like.style.color = '#1b262c';
+    //     like.innerHTML = " Liked";
+    // }
+    // const doubleClick = () => {
+    //     like.style.fontweight = 'normal';
+    //     like.style.background = '#3282b8';
+    //     like.style.color = '#1b262c';
+    //     like.innerHTML = " Like";
+    // }
+    // //to get the function on click and then double click
+    // var clickCount = 0;
+    // like.addEventListener('click', function () {
+    //     clickCount++;
+    //     if (clickCount === 1) {
+    //         singleClickTimer = setTimeout(function () {
+    //             clickCount = 0;
+    //             singleClick();
+    //         }, 400);
+    //     } else if (clickCount === 2) {
+    //         clearTimeout(singleClickTimer);
+    //         clickCount = 0;
+    //         doubleClick();
+    //     }
+    // }, false
+
+    // );
+</script>-->
+
+</html>

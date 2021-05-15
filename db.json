@@ -1,0 +1,104 @@
+{
+    "blogs" :[
+        {
+            "id": 1,
+            "name" : "Stumped!",
+            "DateTime" : "27 Apr 2021",
+            "Length": "2 mins",
+            "category": "Dumps",
+            "subcategory": "Seek",
+            "content": "A father asks his 12-year-old son to go into the backyard and remove a tree stump.  The boy, eager to show his dad his ability to execute this manly task, runs out and begins to push the stump with all his might.  After about 20 minutes of huffing and puffing, the stump stood there without a change in position. Soon, the boy realizes that his dad was" ,
+            "image":"../images/blogit8.jpeg"
+        },
+        {
+            "id": 2,
+            "name" : "Smooth Operator",
+            "DateTime" : "01 Feb 2021",
+            "Length": "2.4 mins",
+            "category": "Luck",
+            "subcategory": "Undeserving",
+            "content": "A young man shopping in a supermarket noticed an old lady following him around.  If he stopped, she stopped.  Furthermore, she kept staring at him.  She finally overtook him at the checkout and turned to him to say, I hope I haven't made you feel ill at ease.  It's just that you look so much like my late son.  To which the man replied, That's okay." ,
+            "image":"../images/melinda.png"
+        },
+        {
+            "id": 3,
+            "name" : "The Last Dance",
+            "DateTime": "05 May 2021",
+            "Length": "2 mins",
+            "category": "Purpose",
+            "subcategory": "FootPrints",
+            "content": "Co-authored by Shamshu Hirani & Arun Nathani An IT professional while getting ready for work, gazed in the mirror and noticed a grey strand of hair.  “Age is catching up,” he reflected gloomily, “and I still haven’t found my life partner!”  His glance slid down to his old, faded ",
+            "image":"../images/blogit8.jpeg"
+        },
+        {
+            "id": 4,
+            "name" : "Hide and Steal",
+            "DateTime": "09 May 2021",
+            "Length": "1.7 mins",
+            "category": "Skills",
+            "subcategory": "Diligence",
+            "content": "A math teacher took a bag of cookies out of her purse and asked a little boy, “If I give you two cookies, and then another two cookies, how many cookies will you have?”  “Five cookies,” he replied. She was surprised by his reply.  So, she used her fingers to help him count.  “Look, if I give you one, two—TWO cookies—and another one"
+           
+        },
+        {
+            "id": 5,
+            "name" : "Secret Of Failure",
+            "DateTime": "22 oct 2020",
+            "Length": "2.3 mins",
+            "category": "Team",
+            "subcategory": "Collaboration",
+            "content":"On a bright sunny morning a group of kids in the neighbourhood found an open field inviting for a game of football.  However, there was an issue—they didn’t have a football kit.  So, the kids decided that each one of them would bring one item to build the kit.  One brought the football, another got the corner flag, and the remaining brought"
+           
+        },
+        {
+            "id": 6,
+            "name" : "The Brave Coward",
+            "DateTime": "17 Sep 2020",
+            "Length": "2.8 mins",
+            "category": "Leader",
+            "subcategory": "Bravery",
+            "content": "Once there lived a man who was always scared and would run away from everything he feared.  Tired of living a scared life, he went to a wise man for guidance, “Master, I have been a coward all my life.  Please teach me to be brave.” “Sure, but only on one condition,” Master replied.  “For one month, every stranger who crosses your path, tell"
+           
+        },
+        {
+            "id": 7,
+            "name" : "Road Less Cycled",
+            "DateTime": "17 Sep 2020",
+            "Length": "2 mins",
+            "category": "Skills",
+            "subcategory": "Race",
+            "content": "Once a man was riding a cycle and noticed another rider about half a mile ahead of him.  The man realized that the rider was traveling at a speed slightly lower than him, and decided to overtake the latter.  The man had about a mile to go on the road before taking his intended turn.  So, he started cycling faster and with every block inched closer to the "
+           
+        },
+        {
+            "id": 8,
+            "name" : "Duty in Despair",
+            "DateTime": "17 Sep 2020",
+            "Length": "6.2 mins",
+            "category": "Bumps",
+            "subcategory": "Despair",
+            "content": "Once during a famine, a desperate man stepped out of his house to earn a living.  He came across a fruit farm.  Hungry, he decided to steal some fruits.  But, as he started plucking, the farmer came chasing after him with a stick.  The man ran into a nearby forest and climbed a tree to evade the farmer. From his vantage point, the man witnessed a "
+           
+        },
+        {
+            "id": 9,
+            "name" : "innocent Maturity",
+            "DateTime": "11 Aug 2020",
+            "Length": "4.9 mins",
+            "category": "Leader",
+            "subcategory": "Benefit",
+            "content": "A little boy went into a grocery store and reached for a soda carton.  He, then, pulled it towards a payphone.  Back in the day cell phones had not invaded our lives as much as it has today—few places still had payphones.  The boy climbed onto the carton to reach the phone buttons and punched in the digits.  The store owner quietly observed and"
+           
+        },
+        {
+            "id": 10,
+            "name" : "The last Walk",
+            "DateTime": "07 jan 2020",
+            "Length": "7 mins",
+            "category": "purpose",
+            "subcategory": "Touch",
+            "content": "I watched the newlyweds sitting on the opposite side of the Havan.  They were our co-participants in the rituals, celebrating the beginning of their life together.  We were doing the reverse—bidding farewell to dad’s soul.  I tilted my head towards my left to comfort my wife.  The mask covering her face had turned moist.  Her silent sobs drowned the rumblings of the Sacred Ganges and the stirring chants of the Hanuman Chalisa.  As I felt a rising lump, I turned my head away and my eyes landed on his holiness, Pujashree Chidanand Swami of Parmarth Niketan.  In an instant, my heart was filled with peace.  His mere presence was precious.  Precious for us and for the hundreds of surrounding seekers.  Who can be more precious than one who comforts anyone coming to his abode?  No one, I concluded."
+           
+        }
+    ]
+}
